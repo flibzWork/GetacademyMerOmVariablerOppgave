@@ -13,7 +13,7 @@ body {
     background-color: black;
     color: white;
     .border {
-        border: 3px dotted white;
+        border: 3px dashed white;
         border-radius: 20px;
     }
     button{
