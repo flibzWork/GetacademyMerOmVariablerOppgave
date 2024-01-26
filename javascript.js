@@ -22,6 +22,7 @@ const yellowDivChange = document.querySelector('#yellow');
     function divYellowChange(e) {
         const yellowDivChange2 = `
             background-color: yellow;
+            border: 5px dashed blue;
         `;
 
         const yellowBkgDiv = document.querySelector('.yellowDiv');

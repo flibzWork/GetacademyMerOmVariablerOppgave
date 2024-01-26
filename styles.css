@@ -15,6 +15,7 @@ body {
     .border {
         border: 3px dashed white;
         border-radius: 20px;
+        padding: 3px;
     }
     button{
         border: none;
