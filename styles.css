@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    .border {
+        border: 3px dotted white;
+        border-radius: 20px;
+    }
+    button{
+        border: none;
+    }
+    button:hover {
+        box-shadow: -5px -5px 10px white;
+        transform: scale(1.04);
+        font-weight: 600;
+    }
+    button:active {
+        transform: scale(0.9);
+    }
+}
+
+.header {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    margin: 0px 5px 5px 5px;
+    padding: 5px 20px;
+    border-radius: 40px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: -5px -5px 10px;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+div#red {
+    background-color: red;
+    color: white;
+}
+
+div#red:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px red;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+div#red:active {
+    transform: scale(0.9);
+}
+
+div#yellow {
+    background-color: yellow;
+    color: black;
+}
+
+div#yellow:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px yellow;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+div#yellow:active {
+    transform: scale(0.9);
+}
+
+div#green {
+    background-color: green;
+    color: white;
+}
+
+div#green:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px green;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+div#green:active {
+    transform: scale(0.9);
+}
+
+div#blue {
+    background-color: blue;
+    color: white;
+}
+
+div#blue:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px blue;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+div#blue:active {
+    transform: scale(0.9);
+}
+
+div#pink {
+    background-color: pink;
+    color: black;
+}
+
+div#pink:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px pink;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+div#pink:active {
+    transform: scale(0.9);
+}
+
+div#orange {
+    background-color: orange;
+    color: white;
+}
+
+div#orange:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px orange;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+div#orange:active {
+    transform: scale(0.9);
+}
+
+.border {
+    border: 5px dashed black;
+    border-radius: 20px;
+}
+
+div {
+    height: 100px;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+}
+
+.small {
+    height: 20px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 40px 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 800;
+}
+
+#redDiv {
+    background-color: none;
+    width: 90%;
+}
+
+#redDiv:hover {
+    transform: scale(1.01);
+
+}
+
+#yellowDiv {
+    background-color: none;
+    width: 90%;
+}
+
+#yellowDiv:hover {
+    transform: scale(1.01);
+}
+
+#greenDiv {
+    background-color: none;
+    width: 90%;
+}
+
+#greenDiv:hover {
+    transform: scale(1.01);
+}
+
+#blueDiv {
+    background-color: none;
+    width: 90%;
+}
+
+#blueDiv:hover {
+    transform: scale(1.01);
+}
+
+#pinkDiv {
+    background-color: none;
+    width: 90%;
+}
+
+#pinkDiv:hover {
+    transform: scale(1.01);
+}
+
+#orangeDiv {
+    background-color: none;
+    width: 90%;
+}
+
+#orangeDiv:hover {
+    transform: scale(1.01);
+}
