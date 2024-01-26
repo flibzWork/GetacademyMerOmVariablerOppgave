@@ -3,6 +3,36 @@ function changeBackground() {
     bodybkg.classList.toggle('dark-mode');
 }
 
+function changeBackgroundRed() {
+    var bodybkgred = document.body;
+    bodybkgred.classList.toggle('red-mode');
+}
+
+function changeBackgroundYellow() {
+    var bodybkgyellow = document.body;
+    bodybkgyellow.classList.toggle('yellow-mode');
+}
+
+function changeBackgroundGreen() {
+    var bodybkggreen = document.body;
+    bodybkggreen.classList.toggle('green-mode');
+}
+
+function changeBackgroundBlue() {
+    var bodybkgblue = document.body;
+    bodybkgblue.classList.toggle('blue-mode');
+}
+
+function changeBackgroundPink() {
+    var bodybkgpink = document.body;
+    bodybkgpink.classList.toggle('pink-mode');
+}
+
+function changeBackgroundOrange() {
+    var bodybkgorange = document.body;
+    bodybkgorange.classList.toggle('orange-mode');
+}
+
 const redDivChange = document.querySelector('#red');
     redDivChange.addEventListener('click', divRedChange);
 
@@ -75,7 +105,6 @@ const orangeDivChange = document.querySelector('#orange');
     function divOrangeChange(e) {
         const orangeDivChange2 = `
             background-color: orange;
-            border: 5px solid red;
             }
         `;
 

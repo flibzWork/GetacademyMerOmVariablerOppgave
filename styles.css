@@ -30,6 +30,72 @@ body {
     }
 }
 
+.red-mode {
+    background-color: red;
+    color: black;
+    div#red {
+        background-color: red;
+        color: black;
+        border: 1px dashed black;
+        transform: scale(0.95);
+    }
+}
+
+.yellow-mode {
+    background-color: yellow;
+    color: black;
+    div#yellow {
+        background-color: yellow;
+        color: black;
+        border: 1px dashed red;
+        transform: scale(0.95);
+    }
+}
+
+.green-mode {
+    background-color: green;
+    color: black;
+    div#green {
+        background-color: green;
+        color: black;
+        border: 1px dashed black;
+        transform: scale(0.95);
+    }
+}
+
+.blue-mode {
+    background-color: blue;
+    color: black;
+    div#blue {
+        background-color: blue;
+        color: black;
+        border: 1px dashed black;
+        transform: scale(0.95);
+    }
+}
+
+.pink-mode {
+    background-color: pink;
+    color: black;
+    div#pink {
+        background-color: pink;
+        color: black;
+        border: 1px dashed black;
+        transform: scale(0.95);
+    }
+}
+
+.orange-mode {
+    background-color: orange;
+    color: black;
+    div#orange {
+        background-color: orange;
+        color: black;
+        border: 1px dashed black;
+        transform: scale(0.95);
+    }
+}
+
 .header {
     text-align: center;
     margin: 30px;
